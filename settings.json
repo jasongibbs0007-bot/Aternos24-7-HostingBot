@@ -27,6 +27,81 @@
       "sneak": true
     },
     "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "pls do the rules",
+        "this is fun"
+      ]
+    },
+    "chat-log": false,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "{
+  "name": "AFK Bot",
+  "bot-account": {
+    "username": "chillguy",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "AmberGlowSMP.aternos.me",
+    "port": 19080,
+    "version": "",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "YourAuthPassword"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
       "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
@@ -73,7 +148,104 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "{
+  "name": "AFK Bot",
+  "bot-account": {
+    "username": "chillguy",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "AmberGlowSMP.aternos.me",
+    "port": 19080,
+    "version": "",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "YourAuthPassword"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "I'm a regular player",
+        "I like to play Minecraft!"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.gg/cSVsJpkAqg",
+    "events": {
+      "connect": true,
+      "disconnect": false,
+      "chat": true
+    }
+  },
+  "chat": {
+    "respond": true,
+    "tpWhitelist": ["YourMinecraftUsername"]
+  }
+}",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true,
+    "tpWhitelist": ["YourMinecraftUsername"]
+  }
+}",
     "events": {
       "connect": true,
       "disconnect": true,
