@@ -225,7 +225,7 @@
     "enabled": true,
     "webhookUrl": "https://discord.gg/cSVsJpkAqg",
     "events": {
-      "connect": true,
+      "connect": false,
       "disconnect": false,
       "chat": true
     }
